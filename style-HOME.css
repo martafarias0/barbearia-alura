@@ -121,6 +121,12 @@ margin: 40px 80px;
 	margin: 30px;
 	font-size: 20px;
 }
+.video{
+	width: 960px;
+	margin: 2em auto;
+
+
+}
 footer{
 	background-image: url("bg.jpg");
 	text-align: center;
