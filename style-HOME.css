@@ -92,6 +92,14 @@ margin: 40px 80px;
 	text-align: center;
 	color: #c78c79;
 }
+.mapa{
+	padding: 2em 0;
+
+}
+.mapa p{
+	margin-bottom: 20px;
+	text-align: center;
+}
 .beneficios {
 	padding: 20px;
 }
