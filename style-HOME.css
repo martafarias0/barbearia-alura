@@ -2,7 +2,7 @@ body{
 	font-family: 'Oswald', sans-serif;
 }
 header{
-	background: #CCCCCC;
+	background: #B1B1B1;
 	padding: 20px;
 }
 .caixa{
@@ -30,24 +30,20 @@ nav a {
 	text-decoration: none;
 }	
 nav a:hover{
-	color: #c78c79;
+	color: #98705D
+;
 	text-decoration: underline;
 }
 body{
-	background: #F8F8FF;
+	background: #B1B1B1;
 }
 main{
-	margin: 0 80px;
+	
 }
 .banner {
 	width:100%;
 }
 
-.principal{
-margin: 40px 80px;
-
-
-}
 
 .titulo-principal {
 	text-align: center;
@@ -59,14 +55,19 @@ margin: 40px 80px;
 .utensilios {
 	width: 80px;
 	float: left;
-	margin: 0 20px 20px 20px;
+	margin: 0 20px 20px 0px;
 	
+}
+.principal{
+	width: 960px;
+	margin: 2em auto;
 }
 
 .principal p {
-	margin: 0 0 1em;
+	margin: 0 0 0;
 	font-size: 18px;
 	text-align: justify;
+	line-height: 2em;
 }
 .principal em{
 	font-style: italic;
@@ -75,13 +76,11 @@ margin: 40px 80px;
 	font-weight: bold;
 }
 .missao{
-	margin: 40px 80px;
+	margin: 20px 0px;
 	padding: 20px 10px;
-	border: black 1px solid;
-	border-radius: 10px;
 	font-size: 20px;
 	font-style: italic;
-	background: white;
+	
 }
 
 #missao1{
@@ -90,18 +89,18 @@ margin: 40px 80px;
 #missao2{
 	
 	text-align: center;
-	color: #c78c79;
+	color: #98705D;
 }
-.mapa{
-	padding: 2em 0;
 
-}
-.mapa p{
-	margin-bottom: 20px;
-	text-align: center;
-}
 .beneficios {
 	padding: 20px;
+	background: linear-gradient(#B1B1B1, #FEFEFE, white);
+	
+	
+}
+.beneficio2{
+	width: 960px;
+	margin: 2em auto;
 }
 .imagembeneficios {
 	width: 50%;
@@ -109,23 +108,37 @@ margin: 40px 80px;
 .lista-beneficios {
 	display: inline-block;
 	vertical-align: top;
-	width: 45%;
-	margin-left: 10px;
-	text-align: center;
-	padding: 77px 0;
-	border: black solid 1px;
-	border-radius: 10px;
-	background: white;
+	width: 48%;
+	text-align: justify;
+
+
 }
 .itens {
-	margin: 30px;
+	line-height: 53px;
 	font-size: 20px;
+}
+.itens:first-child{
+	font-weight: bold;
+}
+.itens::before{
+	content: "❉";
 }
 .video{
 	width: 960px;
 	margin: 2em auto;
+}
+.mapa{
+	padding-bottom: 2em;
+	background:white;
 
-
+}
+.maps{
+	width: 960px;
+	margin: 0 auto;
+}
+.mapa p{
+	margin-bottom: 20px;
+	text-align: center;
 }
 footer{
 	background-image: url("bg.jpg");
@@ -139,4 +152,9 @@ footer p{
 	color: white;
 	font-size: 13px;
 	margin-top: 20px;
+}
+.logo2{
+	display: block;
+	width: 80px;
+	margin: 0 auto;
 }
