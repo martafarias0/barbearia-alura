@@ -37,20 +37,16 @@ nav a:hover{
 body{
 	background: #B1B1B1;
 }
-main{
-	
-}
 .banner {
 	width:100%;
 }
-
-
 .titulo-principal {
 	text-align: center;
 	font-size: 2em;
 	font-weight: bold;
 	margin-bottom: 1em;
 	clear: left;
+	color: rgba(0,0,0,0.5);
 }
 .utensilios {
 	width: 80px;
@@ -104,14 +100,21 @@ main{
 }
 .imagembeneficios {
 	width: 50%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px black;
+
+}
+.imagembeneficios:hover{
+	opacity: 0.7;
+	transition: 400ms;
+
 }
 .lista-beneficios {
 	display: inline-block;
 	vertical-align: top;
 	width: 48%;
 	text-align: justify;
-
-
 }
 .itens {
 	line-height: 53px;
@@ -130,7 +133,6 @@ main{
 .mapa{
 	padding-bottom: 2em;
 	background:white;
-
 }
 .maps{
 	width: 960px;
@@ -158,3 +160,36 @@ footer p{
 	width: 80px;
 	margin: 0 auto;
 }
+@media screen and (max-width: 480px){
+	.caixa,.principal,.beneficio2,.maps,.video{
+		width: auto;
+	}
+	h1{
+		text-align: center;
+	}
+	nav{
+		position: static;
+	}
+	nav ul{
+		text-align: center;
+	}
+	.principal{
+		margin: 20px 10px;
+	}
+	.missao,.beneficio2{
+		padding: 0 0;
+		margin: 0 0;
+	}
+	.video{
+		margin: 40px 0;
+	}
+	.lista-beneficios, .imagembeneficios{
+		width: 100%;
+	}
+	.maps{
+		margin: 0 20px;
+	}
+	footer{
+		padding: 20px 0;
+	}
+    
